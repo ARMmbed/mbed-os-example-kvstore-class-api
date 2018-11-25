@@ -9,7 +9,7 @@ the specific application requirements and target hardware:
 - FileSystemStore - Class that provides a key-value store API on top of a POSIX-like file system API.
 - SecureStore - Class that provides encryption, authentication and rollback protection on top of the KVStore API. It requires two KVStore implementations, one that provides the storage for the KV pairs and one providing storage for the CMACs that protect KV pairs stored in the KVStore.
 
-You can find more information about Mbed OS Key Value Store Design and other related items in the [kvstore design documentation](https://github.com/ARMmbed/mbed-os/tree/master/docs/design-documents/features/storage/KVStore/KVStore_design.md).
+You can find more information about Mbed OS Key Value Store Design and other related items in the [kvstore design documentation](https://github.com/ARMmbed/mbed-os/blob/master/docs/design-documents/features/storage/KVStore/KVStore_design.md).
 
 **Table of contents:**
 
@@ -20,7 +20,6 @@ You can find more information about Mbed OS Key Value Store Design and other rel
    - [Compile the example](#compile-the-example)
    - [Run the example](#run-the-example)
    - [Troubleshooting](#troubleshooting)
-4. [Default Global KVStore Configuration](#kvstore-configuration)
 
 ## Scenario
 
