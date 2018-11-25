@@ -15,7 +15,8 @@ You can find more information about Mbed OS Key Value Store Design and other rel
 
 1. [Scenario](#scenario)
 2. [Hardware Requirements](#hardware-requirements)
-3. [Usage](#usage)
+3. [License and contributions](#license-and-contributions)
+4. [Usage](#usage)
    - [Import the example](#import-the-example)
    - [Compile the example](#compile-the-example)
    - [Run the example](#run-the-example)
@@ -33,6 +34,12 @@ This example uses several types of key/value storage classes that run on top of 
 1. TDBStore - may run on top of Flash Block Device only
 2. FileSystemStore - may run on top of either Flash or SD card Block Device
 3. SecureStore - may run on either TDBStore or FileSystemStore for underlying storage and requires TDBStore (typically on the internal flash) for its rollback protection storage.
+
+## License and contributions 
+
+The software is provided under [Apache-2.0 license](./LICENSE). Contributions to this project are accepted under the same license. Please see [contributing.md](./CONTRIBUTING.md) for more info.
+
+This project contains code from other projects. The original license text is included in those source files. They must comply with our [license guide](https://os.mbed.com/docs/latest/reference/license.html)
 
 ## Usage
 
