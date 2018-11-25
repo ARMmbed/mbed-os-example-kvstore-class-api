@@ -217,5 +217,5 @@ secure_store->deinit -> 0
 
 #### Troubleshooting
 
-If you have problems, you can review the [documentation](https://os.mbed.com/docs/latest/tutorials/debugging.html)
+If you have any problems, you can review the [documentation](https://os.mbed.com/docs/latest/tutorials/debugging.html)
 for suggestions on what could be wrong and how to fix it.
