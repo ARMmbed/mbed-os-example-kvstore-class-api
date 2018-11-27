@@ -51,7 +51,7 @@ to set everything up.
 From the command-line, import the example:
 
 ```
-mbed import mbed-os-example-kvstore
+mbed import mbed-os-example-kvstore-class-api
 cd mbed-os-example-kvstore-class-api
 ```
 
@@ -91,7 +91,7 @@ result similar to:
 Total Static RAM memory (data + bss): 11632(+0) bytes
 Total Flash memory (text + data): 116718(+0) bytes
 
-Image: ./BUILD/K82F/GCC_ARM/kvstore-class-api.bin
+Image: ./BUILD/K64F/ARM/mbed-os-example-kvstore-class-api.bin
 ```
 
 #### Run the example
